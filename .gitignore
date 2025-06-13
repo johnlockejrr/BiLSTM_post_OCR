@@ -1,0 +1,3 @@
+# Ignore log files
+TRAIN_RUN
+log.txt 
