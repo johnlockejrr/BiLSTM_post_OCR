@@ -49,7 +49,9 @@ This will:
 To correct OCR errors in Hebrew text, run:
 
 ```bash
-python predict.py --model_path best_model.pt --config_path best_model_config.json --text "מאימתי קורין את שמע בערבית משעה שהכהנים נכנסים"
+(BiLSTM) $ python predict.py --model_path best_model.pt --config_path best_model_config.json --text "מאימתי קורינ את שמע בערבית משעה שהכחנים נכנסים"
+Original text: מאימתי קורינ את שמע בערבית משעה שהכחנים נכנסים
+Corrected text: מאימתי קורין את שמע בערבית משעה שהכהנים נכנסים
 ```
 
 This will:
@@ -61,7 +63,7 @@ This will:
 
 - `train.py`: Training script.
 - `predict.py`: Prediction script.
-- `pr.py`: Alternative prediction script (simpler and more reliable).
+- `predict_simple.py`: Alternative prediction script (simpler and more reliable).
 - `data/processed/`: Processed dataset files.
 - `best_model.pt`: Trained model weights.
 - `best_model_config.json`: Model configuration.
