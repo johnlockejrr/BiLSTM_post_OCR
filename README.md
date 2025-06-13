@@ -49,8 +49,8 @@ This will:
 To correct OCR errors in Hebrew text, run:
 
 ```bash
-(BiLSTM) $ python predict.py --model_path best_model.pt --config_path best_model_config.json --text "מאימתי קורינ את שמע בערבית משעה שהכחנים נכנסים"
-Original text: מאימתי קורינ את שמע בערבית משעה שהכחנים נכנסים
+(BiLSTM) $ python predict.py --model_path best_model.pt --config_path best_model_config.json --text "מאימתי קורינ את שמע בערבית משעה שהכחנימ נכנסים"
+Original text: מאימתי קורינ את שמע בערבית משעה שהכחנימ נכנסים
 Corrected text: מאימתי קורין את שמע בערבית משעה שהכהנים נכנסים
 ```
 
